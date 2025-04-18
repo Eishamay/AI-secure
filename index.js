@@ -11,7 +11,7 @@ app.get('/video', (req, res) => {
     res.redirect('https://www.dropbox.com/scl/fi/8k58xibfavdvutowgx5xv/Clawfoot.mkv?rlkey=w1yxrj7idv1dzpm9qveve79sr&st=8ee03it3&dl=1');
   } else {
     
-    res.status(403).send(`Access Denied: Your User-Agent "${userAgent}" is not authorized.`);
+    res.status(403).send('Access Denied');
   }
 });
 
