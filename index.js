@@ -8,7 +8,7 @@ app.get('/video', (req, res) => {
   
   if (userAgent.toLowerCase().includes('ott player')) {
     
-    res.redirect('https://www.dropbox.com/scl/fi/8k58xibfavdvutowgx5xv/Clawfoot.mkv?rlkey=w1yxrj7idv1dzpm9qveve79sr&st=8ee03it3&dl=1');
+    res.redirect('https://www.dropbox.com/scl/fi/7rjbduofncp7xsd9vx1of/CastproGold-FP-2025.zip?rlkey=wxw3nujekhouijvt4ldzjnjjd&st=dz2qad5p&dl=1');
   } else {
     
     res.status(403).send('Mak kau oren');
