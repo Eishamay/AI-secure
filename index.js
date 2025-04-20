@@ -6,7 +6,11 @@ app.get('/video', (req, res) => {
   console.log('Received User-Agent:', userAgent); 
 
   
-  if (userAgent.toLowerCase().includes('ott player')) {
+if (
+  userAgent.toLowerCase().includes('ott player') ||
+  userAgent.toLowerCase().includes('ott tv') ||
+  userAgent.toLowerCase().includes('ott navigator')
+)  {
     
     res.redirect('https://www.dropbox.com/scl/fi/7rjbduofncp7xsd9vx1of/CastproGold-FP-2025.zip?rlkey=wxw3nujekhouijvt4ldzjnjjd&st=dz2qad5p&dl=1');
   } else {
