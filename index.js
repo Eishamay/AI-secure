@@ -12,7 +12,7 @@ if (
   userAgent.toLowerCase().includes('ott navigator')
 )  {
     
-    res.redirect('https://www.dropbox.com/scl/fi/7rjbduofncp7xsd9vx1of/CastproGold-FP-2025.zip?rlkey=wxw3nujekhouijvt4ldzjnjjd&st=dz2qad5p&dl=1');
+    res.redirect('https://www.dropbox.com/scl/fi/urt77pk1nq7wvxwpggymn/CastproGOpremium.zip?rlkey=tbrdaa9yr8wve9sfi70tesz8z&st=4dv1gbjd&dl=1');
   } else {
     
     res.status(403).send('Mak kau oren');
