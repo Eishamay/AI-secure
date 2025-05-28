@@ -12,7 +12,7 @@ if (
   userAgent.toLowerCase().includes('ott navigator')
 )  {
     
-    res.redirect('https://kesporo.vercel.app/api/stream?uuid=d4031422-399f-447b-b09d-ff1f4f559df9');
+    res.redirect('https://castpro-live.vercel.app/api/video?id=FullpackageEncypt');
   } else {
     
     res.status(403).send('Mak kau oren');
