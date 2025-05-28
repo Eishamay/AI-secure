@@ -12,7 +12,7 @@ if (
   userAgent.toLowerCase().includes('ott navigator')
 )  {
     
-    res.redirect('https://www.dropbox.com/scl/fi/urt77pk1nq7wvxwpggymn/CastproGOpremium.zip?rlkey=tbrdaa9yr8wve9sfi70tesz8z&st=4dv1gbjd&dl=1');
+    res.redirect('https://kesporo.vercel.app/api/stream?uuid=d4031422-399f-447b-b09d-ff1f4f559df9');
   } else {
     
     res.status(403).send('Mak kau oren');
